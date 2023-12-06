@@ -1,0 +1,76 @@
+.login--header {
+    margin: 200px 0 20px 250px;
+    font-size: 40px;
+}
+.login--reg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+.login--input {
+    padding: 20px 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 6px #00000040;
+    margin: .3rem;
+    
+}
+
+.login--btn {
+    width: 300px;
+    padding: 15px 35px;
+    background-color: #145ef5;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: linear .4s;
+    margin: 1rem 0 0 6rem;
+}
+.login--btn:hover {
+    opacity: 0.8;
+}
+
+.login--text {
+    margin: .2rem 0 0 16.3rem;
+}
+
+.login a {
+    text-decoration: none;
+    color: #0542bd;
+}
+.login .link {
+    text-decoration: none;
+    color: white;
+}
+
+.login--container {
+    position: relative;
+}
+
+.login--img {
+    position: absolute;
+    height: 600px;
+    left: 900px;
+    bottom: -200px;
+    
+
+}
+.fa-solid {
+    opacity: 0.7;
+    font-size: 15px;
+    color: #222222;
+
+}
+.fa-envelope {
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+}
+.fa-lock {
+    position: relative;
+    left: 26px;
+    bottom: 40px;
+}
+
