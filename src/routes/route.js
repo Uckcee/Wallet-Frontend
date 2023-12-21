@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Home from "../Home/Home";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
@@ -6,9 +6,9 @@ import Dashboard from "../Dashboard/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
-
-const AppRoute = () => {
-  return (
+class AppRoute extends Component {
+  render() {
+    return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,6 +18,8 @@ const AppRoute = () => {
       </Routes>
     </Router>
   );
+  }
+  
 };
 
 export default AppRoute;
